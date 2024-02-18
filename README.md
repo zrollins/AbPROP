@@ -2,6 +2,16 @@
 
 This repository contains the code for the AbPROP models presented in the ICML 2023 Computational Biology Workshop paper titled "AbPROP: Language and Graph Deep Learning for Antibody Property Prediction".
 
+```
+@article{widatalla2023,
+	title = {{AbPROP}: {Language} and {Graph} {Deep} {Learning} for {Antibody} {Property} {Prediction}},
+	journal = {ICML Workshop on Computational Biology},
+	author = {Widatalla, Talal and Rollins, Zachary A and Chen, Ming-Tang and Waight, Andrew and Cheng, Alan},
+	url = {https://icml-compbio.github.io/2023/papers/WCBICML2023_paper53.pdf},
+	month = jul,
+	year = {2023}}
+```
+
 ## Step 0 - Data Preparation
 
 Before proceeding with the program, make sure you have all the experimental or predicted protein data files (in PDB format) for the sequences you want to test. These files should be aligned in a Multiple Sequence Alignment (MSA) format. Additionally, you will need the corresponding labels for each protein, as well as a predefined train/test split. If you have separate Heavy and Light chains, align them separately and then concatenate them to create the full MSA.
